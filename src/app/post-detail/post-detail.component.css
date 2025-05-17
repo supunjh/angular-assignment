@@ -1,0 +1,31 @@
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .detail-container {
+      flex-direction: row;
+    }
+  
+    .post-content, .comments {
+      flex: 1;
+    }
+  }
+  
+  .comment {
+    border-top: 1px solid #ddd;
+    padding: 0.5rem 0;
+  }
+
+ .email-text{
+    color: blue;
+    cursor: pointer;
+ font-size: small;
+ }
+
+ .post-backgroud{
+    background-color: #9adaf5;
+    padding: 10px;
+ }

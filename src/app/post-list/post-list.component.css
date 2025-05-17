@@ -1,0 +1,19 @@
+
+.post-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  
+  .post-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    cursor: pointer;
+  }
+
+  .btn-colour{
+    color: #ffffff;
+    padding: 5px;
+    background-color: blue;
+    margin-top: 8px;
+  }
